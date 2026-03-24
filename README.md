@@ -1,8 +1,8 @@
 # 📊 Sales Performance Dashboard — Power BI + MySQL
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black(file:///C:/Users/Nitis/AppData/Local/Temp/Power%20BI%20Desktop/print-job-1d048bde-e9cc-4194-8e85-f998b9e39c64/mysql%20extrated%20dataset%20(Queires%20used)%20power%20bi%20file.pdf))
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+
 
 A fully interactive **Sales Performance Dashboard** built with **Power BI**, powered by data extracted and transformed using **MySQL queries**. This project provides end-to-end business intelligence — from raw relational data in a SQL database all the way to compelling visual insights for decision-makers.
 
