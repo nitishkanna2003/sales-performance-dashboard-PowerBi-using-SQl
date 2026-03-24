@@ -6,7 +6,6 @@
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 
-
 A fully interactive **Sales Performance Dashboard** built with **Power BI**, powered by data extracted and transformed using **MySQL queries**. This project provides end-to-end business intelligence — from raw relational data in a SQL database all the way to compelling visual insights for decision-makers.
 
 ---
