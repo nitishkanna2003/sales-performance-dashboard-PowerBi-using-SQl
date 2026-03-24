@@ -5,6 +5,39 @@
 
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
+✅  THE 5 QUERIES TO INCLUDE IN README
+#	Query	Why this belongs in README
+1	Monthly Revenue Trend
+DATE_FORMAT + GROUP BY	Shows time-series skill. DATE_FORMAT + GROUP BY is very readable and maps cleanly to a line chart.
+2	Revenue by Product Category
+JOIN + GROUP BY	Classic JOIN + GROUP BY. Instantly shows business insight. Easy for non-technical viewers to understand.
+3	Top 10 Best-Selling Products
+ORDER BY + LIMIT	ORDER BY + LIMIT. Shows ranking logic and real product intelligence. Clean and impressive.
+4	Target vs Actual – Sales Reps
+Formula + ROUND()	Uses a formula + ROUND() inside SELECT. Shows analytical thinking beyond basic aggregation.
+5 ⭐	Repeat vs One-Time Customers
+Subquery + CASE WHEN	Subquery + CASE WHEN. Most impressive query — demonstrates advanced SQL. Best one to highlight to recruiters.
+
+
+### Monthly Revenue Trend
+Groups orders by month to track revenue growth over time.
+```sql
+SELECT DATE_FORMAT(order_date, '%Y-%m') AS month,
+       SUM(quantity * unit_price * (1 - discount)) AS revenue
+FROM orders GROUP BY month ORDER BY month;
+```
+ 
+### Top 10 Best-Selling Products
+Ranks products by revenue to identify top performers.
+```sql
+SELECT p.product_name, SUM(o.quantity * o.unit_price) AS revenue
+FROM orders o JOIN products p ON o.product_id = p.product_id
+GROUP BY p.product_name ORDER BY revenue DESC LIMIT 10;
+```
+ 
+> 📄 Full query docs: [MySQL_Queries_Documentation.docx] ( https://github.com/nitishkanna2003/sales-performance-dashboard-PowerBi-using-SQl/blob/main/Sales_MySQL_Queries_Documentation.docx)
+
+
 
 A fully interactive **Sales Performance Dashboard** built with **Power BI**, powered by data extracted and transformed using **MySQL queries**. This project provides end-to-end business intelligence — from raw relational data in a SQL database all the way to compelling visual insights for decision-makers.
 
