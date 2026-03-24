@@ -35,7 +35,8 @@ FROM orders o JOIN products p ON o.product_id = p.product_id
 GROUP BY p.product_name ORDER BY revenue DESC LIMIT 10;
 ```
  
-> 📄 Full query docs: [MySQL_Queries_Documentation.docx] ( https://github.com/nitishkanna2003/sales-performance-dashboard-PowerBi-using-SQl/blob/main/Sales_MySQL_Queries_Documentation.docx)
+> 📄 Full query docs: [MySQL_Queries_Documentation.docx] 
+( https://github.com/nitishkanna2003/sales-performance-dashboard-PowerBi-using-SQl/blob/main/Sales_MySQL_Queries_Documentation.docx)
 
 
 
