@@ -1,6 +1,7 @@
 # 📊 Sales Performance Dashboard — Power BI + MySQL
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)file:///C:/Users/Nitis/OneDrive/Desktop/Powerbi%20mysql%20claude%20ai/mysql%20extrated%20dataset%20(Queires%20used)%20power%20bi%20file.pdf
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black(<img width="1833" height="1062" alt="image" src="https://github.com/user-attachments/assets/6f890063-87ca-449f-a99c-13a536fee4b3" />))
+
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 
