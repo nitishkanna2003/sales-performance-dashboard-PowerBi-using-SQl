@@ -6,15 +6,21 @@
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 ✅  THE 5 QUERIES TO INCLUDE IN README
+
 #	Query	Why this belongs in README
+
 1	Monthly Revenue Trend
 DATE_FORMAT + GROUP BY	Shows time-series skill. DATE_FORMAT + GROUP BY is very readable and maps cleanly to a line chart.
+
 2	Revenue by Product Category
 JOIN + GROUP BY	Classic JOIN + GROUP BY. Instantly shows business insight. Easy for non-technical viewers to understand.
+
 3	Top 10 Best-Selling Products
 ORDER BY + LIMIT	ORDER BY + LIMIT. Shows ranking logic and real product intelligence. Clean and impressive.
+
 4	Target vs Actual – Sales Reps
 Formula + ROUND()	Uses a formula + ROUND() inside SELECT. Shows analytical thinking beyond basic aggregation.
+
 5 ⭐	Repeat vs One-Time Customers
 Subquery + CASE WHEN	Subquery + CASE WHEN. Most impressive query — demonstrates advanced SQL. Best one to highlight to recruiters.
 
